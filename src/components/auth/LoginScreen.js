@@ -52,7 +52,7 @@ export const LoginScreen = () => {
         </button>
 
         <section className="auth__google">
-          <p>Login with google</p>
+          {/* <p>Login with google</p> */}
 
           {/* <section className="google__btn" onClick={handleGoogleLogin}>
             <section className="google__icon-wrapper">
