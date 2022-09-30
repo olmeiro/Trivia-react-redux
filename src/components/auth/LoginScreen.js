@@ -54,7 +54,7 @@ export const LoginScreen = () => {
         <section className="auth__google">
           <p>Login with google</p>
 
-          <section className="google__btn" onClick={handleGoogleLogin}>
+          {/* <section className="google__btn" onClick={handleGoogleLogin}>
             <section className="google__icon-wrapper">
               <img
                 alt="google button"
@@ -65,7 +65,7 @@ export const LoginScreen = () => {
             <p className="btn__text">
               <b>Sign in with google</b>
             </p>
-          </section>
+          </section> */}
         </section>
         <Link to="/auth/register" className="link">
           Create new account
